@@ -1,0 +1,22 @@
+{
+    "developers": {
+        "devID": ["1069861388077514783", ""],
+        "devUserName": ["purvisilol", ""]
+    },
+    "messageConfig": {
+        "x": "<:8916crossmark:1200361991798263858>",
+        "reload": "<:4434reload:1200361989076176949>",
+        "gen": "<a:2026emojisparkles:1203632515731161098>",
+        "disable": "<:disabled:1202292316367499264>",
+        "enable": "<:enabled:1202292156669382727>",
+        "tick": "<a:check_yes:1082727401513046016>",
+        "utility": "<a:utility:1082696566319632494>",
+        "roles": "<:roles:1082706309121585329>",
+        "checkmark": "<:7425classiccheckmark:1209411330973376544>",
+        "channel": "<:SW_Icons_rcamera:1106291091206058034>",
+        "category": "<a:arrow1:1082725005760143362>",
+        "close": "📪",
+        "block": "📭",
+        "incoming_envelope": "📨"
+    }
+}

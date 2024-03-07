@@ -1,0 +1,26 @@
+import { config } from "dotenv";
+import start from "./Core/Utilities/Handlers/start.js";
+config();
+
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('[antiCrash] :: [unhandledRejection]');
+    console.log(promise, reason);
+});
+
+process.on("uncaughtException", (err, origin) => {
+    console.error('[antiCrash] :: [uncaughtException]');
+    console.log(err, origin);
+});
+
+process.on('uncaughtExceptionMonitor', (err, origin) => {
+    console.error('[antiCrash] :: [uncaughtExceptionMonitor]');
+    console.log(err, origin);
+});
+
+process.on("uncaughtMultipleResolves", (type, promise, reason) => {
+    logger.info(`[antiCrash] :: [uncaughtMultipleResolves]`);
+    console.log(type, promise, reason);
+  });
+
+//Start the bot
+start();
